@@ -1,4 +1,34 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Go ahead, make my day</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 18 Aug 2015 21:44:16 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Upon Reflexion</title><description>&lt;p&gt;I haven’t kept a diary since I was a nine-year-old devoted Spice Girls fan/football geek (thanks Mel C for making those two things compatible). So why start now? Considering what is to come, it seems right; I need to be conscious and aware of my own development and&lt;/p&gt;</description><link>http://localhost:2368/2015/08/18/upon-refelxion/</link><guid isPermaLink="false">7f8fb4fa-6989-4403-83bd-1b99be834381</guid><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Tue, 18 Aug 2015 21:38:40 GMT</pubDate><content:encoded>&lt;p&gt;I haven’t kept a diary since I was a nine-year-old devoted Spice Girls fan/football geek (thanks Mel C for making those two things compatible). So why start now? Considering what is to come, it seems right; I need to be conscious and aware of my own development and remind myself about that. Just to be clear, I’m not going to take you through Makers Academy day for day describing every single step of the journey — that I’ll keep to my self and there exist plenty of other Makers blogs dedicated to this. So what is the purpose?&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Go ahead, make my day</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 02 Sep 2015 20:09:08 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Pre-Course (week 3)</title><description>&lt;p&gt;It's been all quiet on the Western front for some time, and there's a reason for that.&lt;/p&gt;
+
+&lt;p&gt;Wednesday 19 August, half-way through week 3; sincerely, I was about to give up. In my mind I had already given up. However, retrospectively, this was me at a crossroads – I could either&lt;/p&gt;</description><link>http://localhost:2368/2015/08/31/hhh/</link><guid isPermaLink="false">5c10674e-a2e5-4781-ac58-53e915a0a691</guid><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Mon, 31 Aug 2015 18:47:25 GMT</pubDate><content:encoded>&lt;p&gt;It's been all quiet on the Western front for some time, and there's a reason for that.&lt;/p&gt;
+
+&lt;p&gt;Wednesday 19 August, half-way through week 3; sincerely, I was about to give up. In my mind I had already given up. However, retrospectively, this was me at a crossroads – I could either see myself defeated or give it another chance. I was facing some unexpected difficulties that stripped me from courage and optimism. The horizon had disappeared and I was, out of a sudden, navigating in stormy waters.&lt;/p&gt;
+
+&lt;p&gt;For those of you who are about to join Makers, and have never coded before, the following might prove useful to know: once you think you've got everything under control, finally feel you've caught up with the others, and are confident about the prospects of completing your assignments, the situation can diametrically change.&lt;/p&gt;
+
+&lt;p&gt;So here's what happened. Going through Ruby Kickstart, I found the hour-long video and first five exercises of session 1 a piece of cake. However, the sixth and seventh were unexpectedly difficult, and at that time, I didn't even understand the provided solutions. Annoyed about this, I decided to move forward with session 2 and leave the two other exercises for now but this strategy failed miserably.&lt;/p&gt;
+
+&lt;p&gt;I looked at the exercises. And looked again. Doubled checked they belonged to session 2. It didn't make sense to me. Whereas most of session 1 almost made me feel superior, session 2 should have been called Hubris. To me, the video took a quantum leap in the level of complexity, and afterwards I was so bewildered that I sobbingly had to reread the exercises. I felt that I was going to throw up. If Makers' Academy was already that difficult for me (merely half way through week 3) did I then have the qualifications and prerequisites for keeping up with the others and eventually become a junior developer? And perhaps even more importantly, did I have the guts? Makers' is not just about coding skills - it is just as much about personal traits; you need to be mentally strong, able to collaborate, have spare capacity to help and motivate others and on top of that be highly attentive for some very intense months. &lt;/p&gt;
+
+&lt;p&gt;At this point Wednesday, I was down – and it hurt... a lot. I felt disappointed, sad, like a failure, stupid and ignorant. I wanted to throw in the towel but then what would I be left with? A career I'm not particularly interested in pursuing.&lt;/p&gt;
+
+&lt;p&gt;The following day was no better. After 11 hours of sleep, my pumping heart woke me up. No nightmares but I felt the stress, pressure and fear. I couldn't get my pulse down. I took a long shower which helped but it was merely a consolation. My pulse got up again and the nausea strengthened. I couldn't focus. The day went on pretty much the same way. I was torn, still about to give up, but determined to join the pair-programming with some of the other people from my cohort and the graduation Friday.&lt;/p&gt;
+
+&lt;p&gt;I want to cement that I'm not a quitter. I know you might find it hard to believe after reading this screed, but when you fall deep down, it takes serious belief in the greater mission in order to drag yourself up from the hole, dust yourself off, and continue down the road.&lt;/p&gt;
+
+&lt;p&gt;So, Friday I went to Makers. I was calm and had come to terms with my decision; if today didn't go well, I would bid Makers goodbye and amend my plans for the future - of course, this would be a shame, but I would simply have to move on and accept my faith. Luckily, I didn't come to that.&lt;/p&gt;
+
+&lt;p&gt;Meeting the others was a great success. Many things settled that day, but most importantly, it turned out that most of us shared the same concerns and frustrations. I cannot express how much of a relief this was. On top of that, I can highly recommend attending the graduations - seeing what the seniors have accomplished in a few months alined my expectations and experiencing the tight bond that existed among all students was reassuring.&lt;/p&gt;
+
+&lt;p&gt;I left Makers later that night with a strong feeling that everything would be alright. &lt;/p&gt;</content:encoded></item><item><title>Pre-course (week 1)</title><description>&lt;p&gt;&lt;em&gt;Sunday 9.8.2015&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This weekend I've felt guilty and not because I've done something – quite the opposite. I have allowed myself to enjoy the rare view of the sun in Denmark and spend some quality time with my family before it all sets in.&lt;/p&gt;
+
+&lt;p&gt;During the pre-course (initial four&lt;/p&gt;</description><link>http://localhost:2368/2015/08/31/pre-course-week-1/</link><guid isPermaLink="false">5bc36820-2db9-4829-a8b1-917d5dc685d6</guid><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Mon, 31 Aug 2015 18:02:50 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Sunday 9.8.2015&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This weekend I've felt guilty and not because I've done something – quite the opposite. I have allowed myself to enjoy the rare view of the sun in Denmark and spend some quality time with my family before it all sets in.&lt;/p&gt;
+
+&lt;p&gt;During the pre-course (initial four weeks of Makers which are off-site), the first weeks are spent on the command line and Git. Realising that the Friday challenge (end-of-week assignment to test your understanding) was already up, and that we didn't have to await any further instructions, I noticed fellow Makers submitting theirs early. I felt the group pressure as you definitely don't want to fall behind. Being a part of a big cohort consisting of people with completely different backgrounds and coding skills, I guess my greatest fear is this – falling behind. At this stage, I am not familiar with my own code learning abilities and where to place my technical skills compared to the other Makers. At Makers you're never done, and when it's stated that you should spend 15-20 hours/week on coding during the pre-course, this is meant as a minimum – there're not upper limit for your learning. The harder you work, the more you learn.&lt;/p&gt;</content:encoded></item><item><title>Upon Reflexion</title><description>&lt;p&gt;I haven’t kept a diary since I was a nine-year-old devoted Spice Girls fan/football geek (thanks Mel C for making those two things compatible). So why start now? Considering what is to come, it seems right; I need to be conscious and aware of my own development and&lt;/p&gt;</description><link>http://localhost:2368/2015/08/18/upon-refelxion/</link><guid isPermaLink="false">7f8fb4fa-6989-4403-83bd-1b99be834381</guid><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Tue, 18 Aug 2015 21:38:40 GMT</pubDate><content:encoded>&lt;p&gt;I haven’t kept a diary since I was a nine-year-old devoted Spice Girls fan/football geek (thanks Mel C for making those two things compatible). So why start now? Considering what is to come, it seems right; I need to be conscious and aware of my own development and remind myself about that. Just to be clear, I’m not going to take you through Makers Academy day for day describing every single step of the journey — that I’ll keep to my self and there exist plenty of other Makers blogs dedicated to this. So what is the purpose?&lt;/p&gt;
 
 &lt;p&gt;Makers Academy is at this stage all about unknown unknowns. However, what I do know is that I’m going to face some serious challenges on my 16 weeks long journey. I expect to be frustrated every single day about to give up and the only thing keeping me afloat is the expectation that I will be alright — that seems to be the precedence. If you don’t keep spirits high, you are most likely to drag yourself down and fail; keep telling yourself that you’re not good enough and you will end up with a self-fulfilling prophecy. So, that I’m not going to do.&lt;/p&gt;
 
@@ -36,67 +66,4 @@
 
 &lt;p&gt;I spent a long time scrutinising Makers’ reputation to verify their legitimacy. I read blogs and fora, researched partner companies, talked to people in the tech environment and attended Silicon Milkroundabout. All very positive and encouraging. So, even though the idea of learning to code in 16 weeks and gaining enough skills to become a junior developer seemed unbelievable to me, I was convinced. Now was the right time, I quit my job and threw off the bowlines.&lt;/p&gt;
 
-&lt;p&gt;To make a long story short (shorter), I applied, studied, went to the interview, got accepted and now I am on the first week of the pre-course (four weeks of remote studies). Having prepared (both mentally, physically and study-wise) for a long time now, I’m confident that I’m going to make it. The road will be short, steep, sweaty and scary, but I didn’t expect anything else. By the end of the day, applying for this course is a huge leap of faith, and frankly it sounds harder than anything I’ve done before. However, if you never challenge yourself you don’t discover what you are capable of and able to accomplish. Push yourself hard, then harder and even harder than that, and don’t listen to people trying to drag you down just because they are not courageous enough or don’t have what it takes. Trust yourself and jump.&lt;/p&gt;</content:encoded></item><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/2015/08/16/welcome-to-ghost/</link><guid isPermaLink="false">7ff7c272-a14a-4d8f-a6b7-1c512fdd8ca7</guid><category>Getting Started</category><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Sun, 16 Aug 2015 15:30:27 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
-
-&lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
-
-&lt;p&gt;Ghost uses something called Markdown for writing. Essentially, it's a shorthand way to manage your post formatting as you write!&lt;/p&gt;
-
-&lt;p&gt;Writing in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use &lt;em&gt;shortcuts&lt;/em&gt; to &lt;strong&gt;style&lt;/strong&gt; your content. For example, a list:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Item number one&lt;/li&gt;
-&lt;li&gt;Item number two
-&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;A final item&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;or with numbers!&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Remember to buy some milk  &lt;/li&gt;
-&lt;li&gt;Drink the milk  &lt;/li&gt;
-&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id="links"&gt;Links&lt;/h3&gt;
-
-&lt;p&gt;Want to link to a source? No problem. If you paste in a URL, like &lt;a href="http://ghost.org"&gt;http://ghost.org&lt;/a&gt; - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to &lt;a href="http://ghost.org"&gt;the Ghost website&lt;/a&gt;. Neat.&lt;/p&gt;
-
-&lt;h3 id="whataboutimages"&gt;What about Images?&lt;/h3&gt;
-
-&lt;p&gt;Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://ghost.org/images/ghost.png" alt="The Ghost Logo"&gt;&lt;/p&gt;
-
-&lt;p&gt;Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:&lt;/p&gt;
-
-&lt;h3 id="quoting"&gt;Quoting&lt;/h3&gt;
-
-&lt;p&gt;Sometimes a link isn't enough, you want to quote someone on what they've said. Perhaps you've started using a new blogging platform and feel the sudden urge to share their slogan? A quote might be just the way to do it!&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ghost - Just a blogging platform&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id="workingwithcode"&gt;Working with Code&lt;/h3&gt;
-
-&lt;p&gt;Got a streak of geek? We've got you covered there, too. You can write inline &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there. &lt;br&gt;
-    .awesome-thing {
-        display: block;
-        width: 100%;
-    }&lt;/p&gt;
-
-&lt;h3 id="readyforabreak"&gt;Ready for a Break?&lt;/h3&gt;
-
-&lt;p&gt;Throw 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h3 id="advancedusage"&gt;Advanced Usage&lt;/h3&gt;
-
-&lt;p&gt;There's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.&lt;/p&gt;
-
-&lt;p&gt;&lt;input type="text" placeholder="I'm an input field!"&gt;&lt;/p&gt;
-
-&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;To make a long story short (shorter), I applied, studied, went to the interview, got accepted and now I am on the first week of the pre-course (four weeks of remote studies). Having prepared (both mentally, physically and study-wise) for a long time now, I’m confident that I’m going to make it. The road will be short, steep, sweaty and scary, but I didn’t expect anything else. By the end of the day, applying for this course is a huge leap of faith, and frankly it sounds harder than anything I’ve done before. However, if you never challenge yourself you don’t discover what you are capable of and able to accomplish. Push yourself hard, then harder and even harder than that, and don’t listen to people trying to drag you down just because they are not courageous enough or don’t have what it takes. Trust yourself and jump.&lt;/p&gt;</content:encoded></item></channel></rss>
