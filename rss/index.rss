@@ -1,4 +1,24 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Go ahead, make my day</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 02 Sep 2015 20:09:08 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Pre-Course (week 3)</title><description>&lt;p&gt;It's been all quiet on the Western front for some time, and there's a reason for that.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Go ahead, make my day</title><description>Go ahead, make my day</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 12:25:39 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Red Green Refactoring</title><description>&lt;p&gt;To truly understand the idea behind red green refactoring (RGR), its first important to appreciate the principles behind Test Driven Development (TDD).&lt;/p&gt;
+
+&lt;p&gt;TDD is essentially a very simple albeit absolutely paramount philosophy to coding. In fact to simply label it a philosophy would be somewhat of an indignity - coding&lt;/p&gt;</description><link>http://localhost:2368/2015/09/03/red-and-green-refactoring/</link><guid isPermaLink="false">ad2a8b26-f9d9-4832-b38f-67d4e0e6261a</guid><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Thu, 03 Sep 2015 12:24:44 GMT</pubDate><content:encoded>&lt;p&gt;To truly understand the idea behind red green refactoring (RGR), its first important to appreciate the principles behind Test Driven Development (TDD).&lt;/p&gt;
+
+&lt;p&gt;TDD is essentially a very simple albeit absolutely paramount philosophy to coding. In fact to simply label it a philosophy would be somewhat of an indignity - coding is TDD and TDD is coding (in a good-practice sense at least anyway). The premise is simple - you write a code intending to fail, and then you modify the code to make it pass. Rinse and repeat to satisfaction. Simple.&lt;/p&gt;
+
+&lt;p&gt;RGR articulates that philosophy into three tangible steps:&lt;/p&gt;
+
+&lt;p&gt;The Red step  - the first step where you kickstart the process by writing a unit test that you are certain will fail. In a testing environment this often returns a red failure message, hence the red connotation.&lt;/p&gt;
+
+&lt;p&gt;The Green step - revisit your failed code, study the failure/error message that underlies the code, and then make the necessary modifications so that your unit test will pass, or go green!&lt;/p&gt;
+
+&lt;p&gt;The Refactor step - with your unit test passing and satisfied that your code is functional, the next step would be to refactor or fix up the code to make it seem leaner, more aesthetic and most importantly - quicker to run. Principles such as DRY (Do not Repeat Yourself) apply here when considering refactoring.&lt;/p&gt;
+
+&lt;p&gt;Repeat until satisfied. That’s it!&lt;/p&gt;
+
+&lt;p&gt;So we know what it is and how it works, but the more pressing question is why bother?&lt;/p&gt;
+
+&lt;p&gt;The RGR is a circular process that functions as a tool for approaching a coding related problem. By constantly analysing and rethinking your hypotheses, the code will become less likely to contain bugs as you via the tests are able to react to problems as they occur.&lt;/p&gt;
+
+&lt;p&gt;Studies show that programmers who use the red green refactoring approach become more efficient and productive. Focusing on individual test cases and making them pass these tests eventually makes the code more smooth, functional and user-friendly.&lt;/p&gt;</content:encoded></item><item><title>Pre-Course (week 3)</title><description>&lt;p&gt;It's been all quiet on the Western front for some time, and there's a reason for that.&lt;/p&gt;
 
 &lt;p&gt;Wednesday 19 August, half-way through week 3; sincerely, I was about to give up. In my mind I had already given up. However, retrospectively, this was me at a crossroads – I could either&lt;/p&gt;</description><link>http://localhost:2368/2015/08/31/hhh/</link><guid isPermaLink="false">5c10674e-a2e5-4781-ac58-53e915a0a691</guid><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Mon, 31 Aug 2015 18:47:25 GMT</pubDate><content:encoded>&lt;p&gt;It's been all quiet on the Western front for some time, and there's a reason for that.&lt;/p&gt;
 
