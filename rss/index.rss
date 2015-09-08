@@ -1,4 +1,78 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Go ahead, make my day</title><description>Go ahead, make my day</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 12:25:39 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Red Green Refactoring</title><description>&lt;p&gt;To truly understand the idea behind red green refactoring (RGR), its first important to appreciate the principles behind Test Driven Development (TDD).&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Go ahead, make my day</title><description>Go ahead, make my day</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 10:33:09 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>SOLID - Dependency Inversion Principle</title><description>&lt;p&gt;&lt;em&gt;Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Overall&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Abstractions should not depend on details&lt;/li&gt;
+&lt;li&gt;Code should depend on things that are at the same or higher level of abstraction&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/2015/09/08/solid-dependency-inversion-principle/</link><guid isPermaLink="false">fbb60beb-d172-493e-b10e-c2409ef10869</guid><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Tue, 08 Sep 2015 10:30:24 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Describe the SOLID principle of dependency inversion, by giving an example of dependency injection with a module and a class. How does DI improve the reusability of code?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Overall&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Abstractions should not depend on details&lt;/li&gt;
+&lt;li&gt;Code should depend on things that are at the same or higher level of abstraction&lt;/li&gt;
+&lt;li&gt;High level policy should not depend on low level details&lt;/li&gt;
+&lt;li&gt;Capture low-level dependencies in domain-relevant abstractions
+&lt;em&gt;&lt;a href="http://martinfowler.com/articles/dipInTheWild.html"&gt;http://martinfowler.com/articles/dipInTheWild.html&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dependency Inversion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Dependency Inversion Principle is about reversing dependencies from "higher level" components to "lower level" components. This means that the "lower level" components are dependent on the interfaces owned by the "higher level" components.&lt;/p&gt;
+
+&lt;p&gt;The most common place that talk about dependency inversion comes up is when folks are thinking about automated testing. While Ruby makes it possible to mock out calls to pretty much any object, it's a whole lot cleaner to pass in raw mock objects than it is to set expectations on real objects.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dependency Injection&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software engineering, dependency injection is a software design pattern that implements inversion of control for resolving dependencies. Dependency injection means giving an object its instance variables&lt;/p&gt;
+
+&lt;p&gt;Dependency injection is basically providing the objects that an object needs (its dependencies) instead of having it construct them itself. It's a very useful technique for testing, since it allows dependencies to be mocked or stubbed out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Benefits of DIP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The main reason for using dependency injection is to be able to swap the dependencies of an object at run time - this is mostly useful for testing. &lt;/p&gt;
+
+&lt;p&gt;A dependency is an object that can be used (a service). An injection is the passing of a dependency to a dependent object (client) that would use it.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Risk avoidance&lt;/li&gt;
+&lt;li&gt;Makes testing easier (both writing and reading) by letting us substitute implementations in our tests&lt;/li&gt;
+&lt;li&gt;Creates a more robust and flexible program&lt;/li&gt;
+&lt;li&gt;Opportunity to customise code without rebuilding it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let say you want to switch on a lamp i a room. You don’t have to cut into the wall and fiddle around with the electrics - that has already been done and we don’t to worry about it anymore. However, this happened initially and in order to switch on the lamp, we are dependant on this. From this point, the electrical outlet provides a standard interface for operating the lamp. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;#a typical approach&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;module Electrics  
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;include Electrics  
+class Lamp  
+  def initialize
+    @plug = Lamp.new(:type =&amp;gt; ‘uk’)
+  end
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;#DI approach&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Lamp  
+  def initialize(plug)
+    @plug = plug
+  end
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;DIP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.stack.imgur.com/BrkBd.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;em&gt;&lt;a href="http://i.stack.imgur.com/BrkBd.png"&gt;http://i.stack.imgur.com/BrkBd.png&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title>Red Green Refactoring</title><description>&lt;p&gt;To truly understand the idea behind red green refactoring (RGR), its first important to appreciate the principles behind Test Driven Development (TDD).&lt;/p&gt;
 
 &lt;p&gt;TDD is essentially a very simple albeit absolutely paramount philosophy to coding. In fact to simply label it a philosophy would be somewhat of an indignity - coding&lt;/p&gt;</description><link>http://localhost:2368/2015/09/03/red-and-green-refactoring/</link><guid isPermaLink="false">ad2a8b26-f9d9-4832-b38f-67d4e0e6261a</guid><dc:creator>Sarah Kristine Pedersen</dc:creator><pubDate>Thu, 03 Sep 2015 12:24:44 GMT</pubDate><content:encoded>&lt;p&gt;To truly understand the idea behind red green refactoring (RGR), its first important to appreciate the principles behind Test Driven Development (TDD).&lt;/p&gt;
 
